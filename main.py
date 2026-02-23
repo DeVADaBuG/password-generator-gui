@@ -1,5 +1,8 @@
-def main():
-    print("Hello from python-project-9!")
+import tkinter as tk
+import random
+import string
 
-if __name__ == "__main__":
-    main()
+def gen_pw():
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=16))
+
+print(f"Generated Password: {gen_pw()}")

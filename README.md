@@ -1,3 +1,1 @@
-# python-project-9
-
-Automated repository creation.
+# password-generator-gui\n\nA desktop graphical user interface application utilizing tkinter to generate cryptographically strong, customizable passwords.\n
